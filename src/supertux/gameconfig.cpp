@@ -41,7 +41,7 @@ Config::Config() :
   fullscreen_size(0, 0),
   fullscreen_refresh_rate(0),
   window_size(800, 600),
-  window_resizable(true),
+  window_resizable(false),
   aspect_size(0, 0), // Auto detect.
 #ifdef __EMSCRIPTEN__
   fit_window(true),

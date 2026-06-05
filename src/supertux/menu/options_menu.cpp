@@ -99,18 +99,6 @@ OptionsMenu::refresh()
     {
       insert_label(_("Video"));
 
-#if !defined(HIDE_NONMOBILE_OPTIONS) && !defined(__EMSCRIPTEN__)
-      add_toggle(MNID_FULLSCREEN,_("Window Resizable"), &g_config->window_resizable)
-        .set_help(_("Allow window resizing, might require a restart to take effect"));
-
-      add_window_resolutions();
-
-      add_toggle(MNID_FULLSCREEN,_("Fullscreen"), &g_config->use_fullscreen)
-        .set_help(_("Fill the entire screen"));
-
-      add_resolutions();
-#endif
-
 #if 0
 #ifdef __EMSCRIPTEN__
       add_toggle(MNID_FIT_WINDOW, _("Fit to browser"), &g_config->fit_window)
@@ -128,10 +116,6 @@ OptionsMenu::refresh()
         .set_help(_("Applies fancy effects such as blur, clear tile refraction, and various other effects deemed \"fancy\". May significantly degrade performance."));
 
       add_flash_intensity();
-
-#if !defined(HIDE_NONMOBILE_OPTIONS) && !defined(__EMSCRIPTEN__)
-      add_aspect_ratio();
-#endif
 
       add_floatfield(_("Camera Peek Multiplier"), &g_config->camera_peek_multiplier)
         .set_help(_("The fractional distance towards the camera peek position to move each frame.\n\n0 = No Peek, 1 = Instant Peek"));
@@ -384,8 +368,8 @@ OptionsMenu::add_aspect_ratio()
 void
 OptionsMenu::add_window_resolutions()
 {
-  m_window_resolutions.list = { "640x480", "854x480", "800x600", "1280x720", "1280x800",
-                                "1440x900", "1920x1080", "1920x1200", "2560x1440" };
+  m_window_resolutions.list = { "800x600", "800x600", "800x600", "800x600", "800x600",
+                                "800x600", "800x600", "800x600", "800x600" }; // thinking about setting the resolution? too bad! supertux v0.3.2 or something idk
   m_window_resolutions.next = -1;
   Size window_size = VideoSystem::current()->get_window_size();
   std::ostringstream out;
