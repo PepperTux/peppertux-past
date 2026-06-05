@@ -10,20 +10,11 @@
     (class "smartball")
     (icon "images/creatures/snowball/smart/left-1.png"))
   (object
-    (class "captainsnowball")
-    (icon "images/creatures/snowball/captain/cpt-left-1.png"))
-  (object
     (class "bouncingsnowball")
-    (icon "images/creatures/bouncing_snowball/bs4.png"))
+    (icon "images/creatures/bouncing_snowball/left-4.png"))
   (object
     (class "flyingsnowball")
     (icon "images/creatures/flying_snowball/left-1.png"))
-  (object
-    (class "kamikazesnowball")
-    (icon "images/creatures/snowball/kamikaze/kamikaze-left.png"))
-  (object
-    (class "snowman")
-    (icon "images/creatures/snowman/walk2.png"))
   (object
     (class "spiky")
     (icon "images/creatures/spiky/waking-left-2.png"))
@@ -32,7 +23,7 @@
     (icon "images/creatures/spiky/sleeping-left.png"))
   (object
     (class "jumpy")
-    (icon "images/creatures/jumpy/left-up.png"))
+    (icon "images/creatures/jumpy/left-up-metal.png"))
   (object
     (class "mriceblock")
     (icon "images/creatures/iceblock/left-1.png"))
@@ -40,23 +31,8 @@
     (class "smartblock")
     (icon "images/creatures/iceblock/smart/left-1.png"))
   (object
-    (class "crystallo")
-    (icon "images/creatures/crystallo/crystallo-left-2.png"))
-  (object
-    (class "crusher")
-    (icon "images/creatures/crusher/krush_ice_hit.png"))
-  (object
     (class "stalactite")
     (icon "images/creatures/stalactite/falling.png"))
-  (object
-    (class "fish-harmless")
-    (icon "images/creatures/fish/ice/orangefish.png"))
-  (object
-    (class "fish-swimming")
-    (icon "images/creatures/fish/ice/left-0.png"))
-  (object
-    (class "fish-chasing")
-    (icon "images/creatures/fish/ice/dopefish.png"))
   (object
     (class "fish-jumping")
     (icon "images/creatures/fish/forest/left-0.png"))
@@ -66,9 +42,6 @@
   (object
     (class "walkingleaf")
     (icon "images/creatures/walkingleaf/left-0.png"))
-  (object
-    (class "leafshot")
-    (icon "images/creatures/leafshot/left-1.png"))
   (object
     (class "mrtree")
     (icon "images/creatures/mr_tree/walk-left-2.png"))
@@ -82,9 +55,6 @@
     (class "snail")
     (icon "images/creatures/snail/snowsnail.png"))
   (object
-    (class "owl")
-    (icon "images/creatures/owl/left-0.png"))
-  (object
     (class "mole")
     (icon "images/creatures/mole/mole-5.png"))
   (object
@@ -92,31 +62,13 @@
     (icon "images/creatures/zeekling/left-0.png"))
   (object
     (class "corrupted_granito")
-    (icon "images/creatures/granito/corrupted/idle_left-0.png"))
+    (icon "images/creatures/skullyhop/standing-0.png"))
   (object
     (class "darttrap")
-    (icon "images/creatures/darttrap/granito/empty_left.png"))
-(object
-    (class "ghoul")
-    (icon "images/creatures/ghoul/g1.png"))
+    (icon "images/creatures/darttrap/skull/idle.png"))
   (object
     (class "mrbomb")
     (icon "images/creatures/mr_bomb/center.png"))
-  (object
-    (class "goldbomb")
-    (icon "images/creatures/gold_bomb/left-1.png"))
-  (object
-    (class "haywire")
-    (icon "images/creatures/haywire/left-1.png"))
-  (object
-    (class "dive-mine")
-    (icon "images/creatures/dive_mine/left-0.png"))
-  (object
-    (class "short_fuse")
-    (icon "images/creatures/short_fuse/center.png"))
-  (object
-    (class "skydive")
-    (icon "images/creatures/skydive/skydive.png"))
   (object
     (class "flame")
     (icon "images/creatures/flame/flame-0.png"))
@@ -124,23 +76,11 @@
     (class "willowisp")
     (icon "images/creatures/willowisp/editor.png"))
   (object
-    (class "walking_candle")
-    (icon "images/creatures/mr_candle/mrcandle-editor.png"))
-  (object
-    (class "livefire")
-    (icon "images/creatures/livefire/left-0.png"))
-  (object
-    (class "livefire_asleep")
-    (icon "images/creatures/livefire/waking-left-0.png"))
-  (object
-    (class "livefire_dormant")
-    (icon "images/creatures/livefire/sleeping-left-0.png"))
-  (object
     (class "toad")
     (icon "images/creatures/toad/toad-idle-0.png"))
   (object
     (class "tarantula")
-    (icon "images/creatures/spidermite/spidermite1.png"))
+    (icon "images/creatures/spidermite/spidermite3.png"))
   (object
     (class "totem")
     (icon "images/creatures/totem/walking1.png"))
@@ -190,9 +130,6 @@
     (class "coin")
     (icon "images/objects/coin/coin-0.png"))
   (object
-    (class "heavycoin")
-    (icon "images/engine/editor/heavy_coin.png"))
-  (object
     (class "powerup")
     (icon "images/engine/editor/powerup.png"))
   (object
@@ -211,20 +148,8 @@
     (class "platform")
     (icon "images/engine/editor/flyingplatform.png"))
   (object
-    (class "fallblock")
-    (icon "images/engine/editor/fallplatform.png"))
-  (object
     (class "hurting_platform")
     (icon "images/engine/editor/hurtplatform.png"))
-  (object
-    (class "circleplatform")
-    (icon "images/engine/editor/circeplatform.png"))
-  (object
-    (class "bicycle-platform")
-    (icon "images/engine/editor/bicycleplatform.png"))
-  (object
-    (class "pneumatic-platform")
-    (icon "images/engine/editor/pneumaticplatform.png"))
   (object
     (class "rock")
     (icon "images/objects/rock/rock.png"))
@@ -238,29 +163,14 @@
     (class "trampoline")
     (icon "images/objects/trampoline/trampoline1-0.png"))
   (object
-    (class "rustytrampoline")
-    (icon "images/objects/rusty-trampoline/trampoline1-0.png"))
-  (object
-    (class "bumper")
-    (icon "images/objects/trampoline/right-0.png"))
-  (object
     (class "door")
     (icon "images/objects/door/door-0.png"))
-  (object
-    (class "key")
-    (icon "images/objects/keys/key_silver.png"))
   (object
     (class "pushbutton")
     (icon "images/objects/pushbutton/pushbutton-0.png"))
   (object
     (class "switch")
     (icon "images/objects/switch/left-0.png"))
-  (object
-    (class "lit-object")
-    (icon "images/objects/lightflower/lightflower1-0.png"))
-  (object
-    (class "torch")
-    (icon "images/objects/torch/torch1.png"))
   (object
     (class "candle")
     (icon "images/objects/candle/candle-1.png"))
@@ -300,15 +210,6 @@
   (object
     (class "ambient_sound")
     (icon "images/engine/editor/ambientsound.png"))
-  (object
-    (class "particle-zone")
-    (icon "images/engine/editor/particle_zone.png"))
-  (object
-    (class "text-area")
-    (icon "images/engine/editor/textarray.png"))
-  (object
-    (class "editor-comment")
-    (icon "images/engine/editor/editor-comment.png"))
  )
 
  (layers
@@ -377,8 +278,5 @@
   (object
     (class "tilemap")
     (icon "images/engine/editor/tilemap.png"))
-  (object
-    (class "background")
-    (icon "images/engine/editor/background.png"))
  )
 )

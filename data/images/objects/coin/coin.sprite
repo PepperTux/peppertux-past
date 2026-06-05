@@ -15,7 +15,4 @@
       (action
           (name "editor-path")
           (images "path_coin.png"))
-      (action
-          (name "editor-heavy")
-          (images "heavy_coin.png"))
 )

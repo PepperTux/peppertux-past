@@ -40,7 +40,7 @@ Config::Config() :
   profile(1),
   fullscreen_size(0, 0),
   fullscreen_refresh_rate(0),
-  window_size(1280, 800),
+  window_size(800, 600),
   window_resizable(true),
   aspect_size(0, 0), // Auto detect.
 #ifdef __EMSCRIPTEN__
@@ -84,7 +84,7 @@ Config::Config() :
   christmas_mode(false),
   transitions_enabled(true),
   confirmation_dialog(false),
-  pause_on_focusloss(true),
+  pause_on_focusloss(false),
 #ifdef __ANDROID__
   custom_mouse_cursor(false),
 #else

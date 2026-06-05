@@ -1,9 +1,0 @@
-(supertux-sprite
-	(action
-	  (name "default")
-	  (hitbox 6 6 26 26)
-	  (images "coconut_falling.png"))
-	(action
-	  (name "squished")
-	  (hitbox 6 12 26 26)
-	  (images "coconut_broken.png")))
