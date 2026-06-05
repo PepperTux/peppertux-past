@@ -228,7 +228,7 @@ DartTrap::on_type_change(int old_type)
   switch (m_type)
   {
     case GRANITO:
-      m_dart_sprite = "images/creatures/darttrap/skull/skull_dart.sprite"";
+      m_dart_sprite = "images/creatures/darttrap/skull/skull_dart.sprite";
       m_dart_lightsprite = "images/creatures/darttrap/skull/dart_light.sprite";
       break;
     case SKULL:
